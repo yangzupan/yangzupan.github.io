@@ -1,2 +1,1 @@
-# yangzupan.github.io
-Apan主页
+# Apan主页
