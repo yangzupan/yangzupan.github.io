@@ -1,0 +1,30 @@
+{
+  "name": "vuepress-template",
+  "version": "1.0.0",
+  "description": "pange's vuepress template",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev1": "vuepress dev src1",
+    "build1": "vuepress build src1",
+    "clean-dev1": "vuepress dev src1 --clean-cache",
+
+    "dev2": "vuepress dev src2",
+    "build2": "vuepress build src2",
+    "clean-dev2": "vuepress dev src2 --clean-cache",
+
+    "dev3": "vuepress dev src3",
+    "build3": "vuepress build src3",
+    "clean-dev3": "vuepress dev src3 --clean-cache",
+
+    "build": "vuepress build src1 && vuepress build src2  && vuepress build src3",
+    "update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-rc.0",
+    "@vuepress/utils": "2.0.0-rc.0",
+    "vue": "^3.3.13",
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-theme-hope": "2.0.0-rc.5"
+  }
+}

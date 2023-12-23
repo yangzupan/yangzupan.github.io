@@ -1,0 +1,7 @@
+node_modules/
+src1/.vuepress/.cache/
+src1/.vuepress/.temp/
+src2/.vuepress/.cache/
+src2/.vuepress/.temp/
+src3/.vuepress/.cache/
+src3/.vuepress/.temp/

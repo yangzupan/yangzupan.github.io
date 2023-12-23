@@ -1,0 +1,140 @@
+name: deploy
+on:
+  push:
+    branches:
+      # 确保这是你正在使用的分支名称
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy-yangzupan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
+      # 安装 pnpm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          run_install: true
+          version: 8
+      # 设置 Node.js
+      - name: Settings Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: pnpm
+      # 构建文档
+      - name: Build Docs
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          pnpm run build1
+      # 发布到 Github Pages
+      - name: Publish to Github Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # 这是文档部署到的分支名称
+          branch: pages
+          folder: dist1/
+      # 安装 ossutil
+      - name: Install ossutil
+        run: |
+          curl -L https://gosspublic.alicdn.com/ossutil/1.7.18/ossutil64 -o /usr/local/bin/ossutil
+          chmod +x /usr/local/bin/ossutil
+      #删除文件
+      - name: Delete existing files in OSS
+        env:
+            ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
+            ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
+        run: |
+            ossutil rm oss://yangzupan/assets -f --access-key-id=$ALI_ACCESS_KEY_ID --access-key-secret=$ALI_ACCESS_KEY_SECRET --endpoint=oss-cn-chengdu.aliyuncs.com
+      # 同步文件到 OSS
+      - name: Sync files to OSS
+        env:
+          ALI_ACCESS_KEY_ID: ${{ secrets.ALI_ACCESS_KEY_ID }}
+          ALI_ACCESS_KEY_SECRET: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
+        run: |
+          ossutil sync ./dist1 oss://yangzupan -f --access-key-id=$ALI_ACCESS_KEY_ID --access-key-secret=$ALI_ACCESS_KEY_SECRET --endpoint=oss-cn-chengdu.aliyuncs.com
+  deploy-laopange:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
+      # 安装 pnpm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          run_install: true
+          version: 8
+      # 设置 Node.js
+      - name: Settings Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: pnpm
+      # 构建文档
+      - name: Build Docs
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          pnpm run build2
+      # 安装 ossutil
+      - name: Install ossutil
+        run: |
+          curl -L https://gosspublic.alicdn.com/ossutil/1.7.18/ossutil64 -o /usr/local/bin/ossutil
+          chmod +x /usr/local/bin/ossutil
+      # 同步文件到 OSS
+      - name: Sync files to OSS
+        env:
+          ALI_ACCESS_KEY_ID: ${{ secrets.ALI_ACCESS_KEY_ID }}
+          ALI_ACCESS_KEY_SECRET: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
+        run: |
+          ossutil sync ./dist2 oss://laopange -f --delete --access-key-id=$ALI_ACCESS_KEY_ID --access-key-secret=$ALI_ACCESS_KEY_SECRET --endpoint=oss-cn-chengdu.aliyuncs.com
+  deploy-pange:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
+      # 安装 pnpm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          run_install: true
+          version: 8
+      # 设置 Node.js
+      - name: Settings Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: pnpm
+      # 构建文档
+      - name: Build Docs
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          pnpm run build3
+      # 安装 ossutil
+      - name: Install ossutil
+        run: |
+          curl -L https://gosspublic.alicdn.com/ossutil/1.7.18/ossutil64 -o /usr/local/bin/ossutil
+          chmod +x /usr/local/bin/ossutil
+      # 同步文件到 OSS
+      - name: Sync files to OSS
+        env:
+          ALI_ACCESS_KEY_ID: ${{ secrets.ALI_ACCESS_KEY_ID }}
+          ALI_ACCESS_KEY_SECRET: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
+        run: |
+          ossutil sync ./dist3 oss://pangenet -f --delete --access-key-id=$ALI_ACCESS_KEY_ID --access-key-secret=$ALI_ACCESS_KEY_SECRET --endpoint=oss-cn-chengdu.aliyuncs.com
