@@ -1,27 +1,26 @@
 {
-  "name": "vuepress-template",
+  "name": "homepage",
   "version": "1.0.0",
-  "description": "pange's vuepress template",
+  "description": "homepage",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev0": "vuepress dev pages",
-    "build0": "vuepress build pages",
-    "clean-dev0": "vuepress dev pages --clean-cache",
+    "dev0": "vuepress dev src -c ./src/.vuepress/config0.ts",
+    "build0": "vuepress build src -c ./src/.vuepress/config0.ts",
+    "clean-dev0": "vuepress dev src -c ./src/.vuepress/config0.ts --clean-cache",
     
-    "dev1": "vuepress dev src1",
-    "build1": "vuepress build src1",
-    "clean-dev1": "vuepress dev src1 --clean-cache",
-
-    "dev2": "vuepress dev src2",
-    "build2": "vuepress build src2",
-    "clean-dev2": "vuepress dev src2 --clean-cache",
-
-    "dev3": "vuepress dev src3",
-    "build3": "vuepress build src3",
-    "clean-dev3": "vuepress dev src3 --clean-cache",
-
-    "build": "vuepress build src1 && vuepress build src2  && vuepress build src3",
+    "dev1": "vuepress dev src -c ./src/.vuepress/config1.ts",
+    "build1": "vuepress build src -c ./src/.vuepress/config1.ts",
+    "clean-dev1": "vuepress dev src -c ./src/.vuepress/config1.ts --clean-cache",
+    
+    "dev2": "vuepress dev src -c ./src/.vuepress/config2.ts",
+    "build2": "vuepress build src -c ./src/.vuepress/config2.ts",
+    "clean-dev2": "vuepress dev src -c ./src/.vuepress/config2.ts --clean-cache",
+    
+    "dev3": "vuepress dev src -c ./src/.vuepress/config3.ts",
+    "build3": "vuepress build src -c ./src/.vuepress/config3.ts",
+    "clean-dev3": "vuepress dev src -c ./src/.vuepress/config3.ts --clean-cache",
+  
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
