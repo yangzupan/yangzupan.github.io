@@ -52,7 +52,7 @@ jobs:
           ALI_ACCESS_KEY_ID: ${{ secrets.ALI_ACCESS_KEY_ID }}
           ALI_ACCESS_KEY_SECRET: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
         run: |
-            ossutil rm oss://yangzupan/assets -f --access-key-id=$ALI_ACCESS_KEY_ID --access-key-secret=$ALI_ACCESS_KEY_SECRET --endpoint=oss-cn-chengdu.aliyuncs.com
+            ossutil rm oss://yangzupan/assets -r -f --access-key-id=$ALI_ACCESS_KEY_ID --access-key-secret=$ALI_ACCESS_KEY_SECRET --endpoint=oss-cn-chengdu.aliyuncs.com
       # 同步文件到 OSS
       - name: Sync files to OSS
         env:
