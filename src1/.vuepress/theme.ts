@@ -32,6 +32,17 @@ export default hopeTheme({
   plugins: {
     //图片浏览
     photoSwipe:false,
+    // 组件
+    components: {
+      // 你想使用的组件
+      components: [
+        "Badge",
+        "BiliBili",
+        "SiteInfo",
+        "VPBanner",
+        "VPCard",
+      ],
+    },
     // 版权插件
     copyright: {
       author: "杨祖攀",

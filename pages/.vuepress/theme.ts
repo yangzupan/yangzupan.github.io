@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://yangzupan.github.io",
   // 全局默认作者
   author: {
-    name: "攀哥",
+    name: "杨祖攀",
     url: "https://yangzupan.github.io",
   },
   // 字体图标资源链接
@@ -34,7 +34,7 @@ export default hopeTheme({
     photoSwipe:false,
     // 版权插件
     copyright: {
-      author: "攀哥",
+      author: "杨祖攀",
       license: " CC BY-NC-ND 4.0 ",
       canonical: "https://yangzupan.github.io",
       global: true,

@@ -1,10 +1,10 @@
 ---
 home: true
-title: 攀哥
+title: 杨祖攀
 shortTitle: 首页
 icon: fa-solid fa-house
 heroFullScreen: false
-heroText: 攀哥
+heroText: 杨祖攀
 tagline: 一个正在成长、不断进化、持续学习的 95 后利他创业者
 features:
   - title: 阅读
@@ -44,5 +44,5 @@ features:
  
 
 copyright: false
-footer: <div class="statement"> Copyright © 2023  <a href="/" target="_blank">攀哥</a> All Rights Reserved.</div>
+footer: <div class="statement"> Copyright © 2023  <a href="/">杨祖攀</a> All Rights Reserved.</div>
 ---
