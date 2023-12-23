@@ -49,8 +49,8 @@ jobs:
       #删除文件
       - name: Delete existing files in OSS
         env:
-            ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
-            ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
+          ALI_ACCESS_KEY_ID: ${{ secrets.ALI_ACCESS_KEY_ID }}
+          ALI_ACCESS_KEY_SECRET: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
         run: |
             ossutil rm oss://yangzupan/assets -f --access-key-id=$ALI_ACCESS_KEY_ID --access-key-secret=$ALI_ACCESS_KEY_SECRET --endpoint=oss-cn-chengdu.aliyuncs.com
       # 同步文件到 OSS
