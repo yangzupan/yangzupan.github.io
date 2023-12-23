@@ -3,6 +3,12 @@
     --home-page-width: 1280px;
 }
 
+// 字体
+@font-face {
+	font-family: zhimangxing;
+	src: url(https://cdn.yangzupan.com/fonts/zhimangxing/zhimangxing-Regular.woff);
+}
+
 // 头部
 
 // 导航
@@ -39,18 +45,38 @@
 // 主体
 
 // 首页
-.vp-hero-info {
-    text-align: center;
+.vp-hero-info-wrapper {
+    height: 70vh;
 }
 
-#main-description {
+.vp-hero-info {
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+// 头像
+.vp-hero-info .vp-hero-image {
+    max-height: 8rem;
+    border-radius: 50%;
+    border: 3px solid var(--border-color);
+}
+
+// 名字
+.vp-hero-infos #main-title {
+    font-family: 'zhimangxing';
+    font-weight:500;
+    font-size: 3rem;
+}
+
+// 描述
+.vp-hero-infos #main-description {
     max-width: 45rem;
+    font-size: 1.125rem;
     line-height: 1.75;
 }
 
-.vp-hero-info-wrapper {
-    height: 60vh;
-}
+
 
 // 特征
 .vp-features:first-child {
@@ -172,9 +198,14 @@
 }
 
 // 404 页面
+.not-found-hint .error-hint {
+    font-size: 1rem;
+}
+
 .vp-page.not-found .action-button {
     padding: 0.5rem 1rem;
 }
+
 
 // 响应式
 @media (min-width: 419px) {
@@ -188,6 +219,22 @@
 @media (min-width: 719px) {
 
     // 首页
+    // 头像
+    .vp-hero-info .vp-hero-image {
+        max-height: 10em;
+    }
+
+    // 名字
+    .vp-hero-infos #main-title {
+        font-size: 3.5rem;
+    }
+
+    // 描述
+    .vp-hero-infos #main-description {
+        font-size: 1.3rem;
+    }
+
+    // 特征
     .vp-feature-item {
         flex-basis: calc(49% - 3rem);
     }
@@ -227,6 +274,22 @@
 @media (min-width: 959px) {
 
     // 首页
+    // 头像
+    .vp-hero-info .vp-hero-image {
+        max-height: 12rem;
+    }
+
+    // 名字
+    .vp-hero-infos #main-title {
+        font-size: 4rem;
+    }
+
+    // 描述
+    .vp-hero-infos #main-description {
+        font-size: 1.5rem;
+    }
+
+    // 特性
     .vp-feature-item {
         flex-basis: calc(33% - 3rem);
     }
@@ -245,6 +308,11 @@
     .vp-footer .record .number {
         flex-direction: row;
         gap: 0.5rem;
+    }
+
+    // 404 页面
+    .not-found-hint .error-hint {
+        font-size: 1.2rem;
     }
 }
 

@@ -5,6 +5,7 @@ shortTitle: 首页
 icon: fa-solid fa-house
 heroFullScreen: false
 heroText: 杨祖攀
+heroImage: https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default
 tagline: 一个正在成长、不断进化、持续学习的 95 后利他创业者
 features:
   - title: 阅读

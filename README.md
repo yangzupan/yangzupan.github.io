@@ -9,12 +9,14 @@
 - [杨祖攀](https://www.yangzupan.com)
 - [老攀哥](https://www.laopange.com)
 - [攀哥](https://www.pange.net)
+- [GitHub Pages](https://yangzupan.github.io/)
 
 ## 更新
 
 ### 2023年12月23日
 
 - 修复样式
+- 更新构建方式
 
 ### 2023年12月22日
 
