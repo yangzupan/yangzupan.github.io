@@ -1,0 +1,1 @@
+export default "{\"documentCount\":0,\"nextId\":0,\"documentIds\":{},\"fieldIds\":{\"h\":0,\"t\":1,\"c\":2},\"fieldLength\":{},\"averageFieldLength\":[],\"storedFields\":{},\"dirtCount\":0,\"index\":[],\"serializationVersion\":2}";

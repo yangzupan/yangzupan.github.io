@@ -5,6 +5,10 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
+    "dev0": "vuepress dev pages",
+    "build0": "vuepress build pages",
+    "clean-dev0": "vuepress dev pages --clean-cache",
+    
     "dev1": "vuepress dev src1",
     "build1": "vuepress build src1",
     "clean-dev1": "vuepress dev src1 --clean-cache",
