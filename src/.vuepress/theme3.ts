@@ -6,8 +6,8 @@ export default hopeTheme({
   hostname: "https://www.pange.net",
   // 全局默认作者
   author: {
-    name: "攀哥",
-    url: "https://www.pange.net",
+    name: "杨祖攀",
+    url: "https://www.yangzupan.com",
   },
   // 字体图标资源链接
   iconAssets: [

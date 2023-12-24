@@ -6,8 +6,8 @@ export default hopeTheme({
   hostname: "https://www.laopange.com",
   // 全局默认作者
   author: {
-    name: "老攀哥",
-    url: "https://www.laopange.com",
+    name: "杨祖攀",
+    url: "https://www.yangzupan.com",
   },
   // 字体图标资源链接
   iconAssets: [

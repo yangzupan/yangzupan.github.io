@@ -13,6 +13,7 @@
     // logo
     .vp-nav-logo {
         transform: scale(1.1);
+        opacity: 0.9;
     }
 // 导航
 .vp-navbar {
@@ -329,4 +330,10 @@
 
     }
 
+}
+
+// 滚动条
+::-webkit-scrollbar{
+    width: 4px;
+    height: 4px;
 }
