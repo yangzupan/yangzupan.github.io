@@ -157,8 +157,8 @@
 // 页脚
 // 页脚版权信息
 .vp-footer-wrapper {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .vp-footer,
@@ -180,8 +180,8 @@
 }
 
 .vp-footer .record img {
-    width: 0.95rem;
-    margin-bottom: -2px;
+    width: 1rem;
+    margin-bottom: -3px;
     margin-right: 0.2rem;
 }
 
@@ -207,8 +207,6 @@
     .vp-feature-item {
         flex-basis: 100%;
     }
-
-
 }
 
 @media (min-width: 719px) {
@@ -246,10 +244,7 @@
         gap: 0.3rem;
     }
 
-    .vp-footer .record img {
-        width: 1.1rem;
-        margin-bottom: -3px;
-    }
+
 
 }
 
@@ -282,11 +277,6 @@
     }
 
     // 页脚
-
-    .vp-footer {
-        font-size: 1rem;
-    }
-
     .vp-footer,
     .vp-footer .record {
         flex-direction: column;
@@ -321,8 +311,6 @@
         border-right: none;
         transition: transform ease-in-out 0.3s, background var(--color-transition), border-right var(--color-transition);
     }
-
-
     // 页脚
     .vp-footer,
     .vp-footer .record,
