@@ -10,7 +10,10 @@
 }
 
 // 头部
-
+    // logo
+    .vp-nav-logo {
+        transform: scale(1.1);
+    }
 // 导航
 .vp-navbar {
     box-shadow: none;
@@ -211,6 +214,11 @@
 
 @media (min-width: 719px) {
 
+    // logo
+    .vp-nav-logo {
+        transform: scale(1.2);
+    }
+
     // 首页
     // 头像
     .vp-hero-info .vp-hero-image {
@@ -311,6 +319,7 @@
         border-right: none;
         transition: transform ease-in-out 0.3s, background var(--color-transition), border-right var(--color-transition);
     }
+
     // 页脚
     .vp-footer,
     .vp-footer .record,
