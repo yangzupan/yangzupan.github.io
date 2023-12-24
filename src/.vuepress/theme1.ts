@@ -22,8 +22,8 @@ export default hopeTheme({
   // 是否在向下滚动时自动隐藏导航栏
   navbarAutoHide: "none",
   // 导航栏图标
-  logo: "https://cdn.yangzupan.com/images/public/logo/pan/logo.svg",
-  logoDark: "https://cdn.yangzupan.com/images/public/logo/pan/logo_dark.svg",
+  logo: "https://cdn.yangzupan.com/images/public/logo/pan/light.svg",
+  logoDark: "https://cdn.yangzupan.com/images/public/logo/pan/dark.svg",
   // 导航栏配置
   navbar,
   // 侧边栏配置

@@ -5,8 +5,8 @@
 
 // 字体
 @font-face {
-	font-family: zhimangxing;
-	src: url(https://cdn.yangzupan.com/fonts/zhimangxing/zhimangxing-Regular.woff);
+    font-family: zhimangxing;
+    src: url(https://cdn.yangzupan.com/fonts/zhimangxing/zhimangxing-Regular.woff);
 }
 
 // 头部
@@ -22,9 +22,6 @@
     font-size: 0.875rem;
 }
 
-.vp-nav-logo {
-    transform: scale(1.2);
-}
 
 // 菜单
 .dropdown-wrapper .nav-dropdown {
@@ -65,7 +62,7 @@
 // 名字
 .vp-hero-infos #main-title {
     font-family: 'zhimangxing';
-    font-weight:500;
+    font-weight: 500;
     font-size: 3rem;
 }
 
@@ -162,15 +159,13 @@
 .vp-footer-wrapper {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-inline-start: 1rem !important;
-    padding-inline-end: 1rem;
 }
 
 .vp-footer,
 .vp-footer .record,
 .vp-footer .record .number {
     display: flex;
-    gap: 0.3rem;
+    gap: 0.2rem;
 }
 
 .vp-footer {
@@ -221,7 +216,7 @@
     // 首页
     // 头像
     .vp-hero-info .vp-hero-image {
-        max-height: 10em;
+        max-height: 9rem;
     }
 
     // 名字
@@ -245,28 +240,15 @@
     }
 
     // 页脚
-    .vp-footer {
-        font-size: 1rem;
-    }
-
     .vp-footer,
     .vp-footer .record,
     .vp-footer .record .number {
-        gap: 0.4rem;
+        gap: 0.3rem;
     }
 
     .vp-footer .record img {
         width: 1.1rem;
         margin-bottom: -3px;
-    }
-
-    .vp-footer,
-    .vp-footer .record {
-        flex-direction: column;
-    }
-
-    .vp-footer .record .number {
-        flex-direction: row;
     }
 
 }
@@ -276,7 +258,7 @@
     // 首页
     // 头像
     .vp-hero-info .vp-hero-image {
-        max-height: 12rem;
+        max-height: 10rem;
     }
 
     // 名字
@@ -300,6 +282,11 @@
     }
 
     // 页脚
+
+    .vp-footer {
+        font-size: 1rem;
+    }
+
     .vp-footer,
     .vp-footer .record {
         flex-direction: column;

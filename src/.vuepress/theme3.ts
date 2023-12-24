@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://www.pange.net",
   // 全局默认作者
   author: {
-    name: "杨祖攀",
+    name: "攀哥",
     url: "https://www.pange.net",
   },
   // 字体图标资源链接
@@ -22,8 +22,8 @@ export default hopeTheme({
   // 是否在向下滚动时自动隐藏导航栏
   navbarAutoHide: "none",
   // 导航栏图标
-  logo: "https://cdn.yangzupan.com/images/public/logo/pan/logo.svg",
-  logoDark: "https://cdn.yangzupan.com/images/public/logo/pan/logo_dark.svg",
+  logo: "https://cdn.yangzupan.com/images/public/logo/pan/light.svg",
+  logoDark: "https://cdn.yangzupan.com/images/public/logo/pan/dark.svg",
   // 导航栏配置
   navbar,
   // 侧边栏配置
@@ -43,7 +43,7 @@ export default hopeTheme({
     photoSwipe: false,
     // 版权插件
     copyright: {
-      author: "杨祖攀",
+      author: "攀哥",
       license: " CC BY-NC-ND 4.0 ",
       canonical: "https://www.pange.net",
       global: true,
