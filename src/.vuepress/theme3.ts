@@ -45,7 +45,7 @@ export default hopeTheme({
     copyright: {
       author: "攀哥",
       license: " CC BY-NC-ND 4.0 ",
-      canonical: "https://www.pange.net",
+      canonical: "https://www.yangzupan.com",
       global: true,
     },
     // 代码复制

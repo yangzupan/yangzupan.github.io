@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 export default hopeTheme({
   // 网站部署域名
-  hostname: "https://yangzupan.github.io",
+  // hostname: "https://yangzupan.github.io",
   // 全局默认作者
   author: {
     name: "杨祖攀",
@@ -45,7 +45,7 @@ export default hopeTheme({
     copyright: {
       author: "杨祖攀",
       license: " CC BY-NC-ND 4.0 ",
-      canonical: "https://yangzupan.github.io",
+      canonical: "https://www.yangzupan.com",
       global: true,
     },
     // 代码复制
