@@ -13,7 +13,7 @@
     // logo
     .vp-nav-logo {
         transform: scale(1.1);
-        opacity: 0.9;
+        // opacity: 0.9;
     }
 // 导航
 .vp-navbar {
@@ -327,11 +327,10 @@
     .vp-footer .record .number {
         flex-direction: row;
         gap: 0.7rem;
-
     }
 
     .vp-footer {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
 }
