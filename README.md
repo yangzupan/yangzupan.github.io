@@ -6,10 +6,17 @@
 
 ## 演示
 
-- [杨祖攀](https://www.yangzupan.com)
-- [老攀哥](https://www.laopange.com)
-- [攀哥](https://www.pange.net)
-- [GitHub Pages](https://yangzupan.github.io/)
+### 线路一
+
+- [杨祖攀的主页](https://www.yangzupan.com)
+- [老攀哥的主页](https://www.laopange.com)
+- [攀哥的主页](https://www.pange.net)
+
+### 线路二
+
+- [GitHub Pages](https://yangzupan.github.io)
+- [Cloudflare Pages](https://yangzupan.pages.dev)
+- [Netlify](https://yangzupan.netlify.app)
 
 ## 更新
 
