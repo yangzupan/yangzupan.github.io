@@ -8,15 +8,13 @@
 
 ### 线路一
 
-- [杨祖攀的主页](https://www.yangzupan.com)
-- [老攀哥的主页](https://www.laopange.com)
-- [攀哥的主页](https://www.pange.net)
+- 主站：[地址一](https://www.yangzupan.com)、[地址二](https://www.laopange.com)、[地址三](https://www.pange.net)
 
 ### 线路二
 
-- [GitHub Pages](https://yangzupan.github.io)
-- [Cloudflare Pages](https://yangzupan.pages.dev)
-- [Netlify](https://yangzupan.netlify.app)
+- GitHub Pages：[地址](https://yangzupan.github.io)
+- Cloudflare Pages：[地址一](https://www.yangzupan.net)、[地址二](https://yangzupan.pages.dev)
+- Netlify：[地址](https://yangzupan.netlify.app)
 
 ## 更新
 
