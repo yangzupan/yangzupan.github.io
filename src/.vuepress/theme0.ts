@@ -32,7 +32,7 @@ export default hopeTheme({
   // 是否默认显示页脚
   displayFooter: true,
   // 页脚
-  footer: '<div class="statement"> Copyright © 2023  <a href="/">杨祖攀</a> All Rights Reserved.</div>',
+  footer: '<div class="statement"> Copyright © 2023  <a href="/">杨祖攀</a> All Rights Reserved.</div> <div class="record">  <div>Powered by <a href="https://v2.vuepress.vuejs.org/zh/" target="_blank">VuePress</a>&nbsp; | &nbsp;Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">Hope</a></div></div>',
 
   // 版权信息
   copyright: false,
