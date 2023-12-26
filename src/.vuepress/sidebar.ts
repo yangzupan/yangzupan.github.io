@@ -15,6 +15,13 @@ export default sidebar({
       children: [
         "me",
         "website",
+        "contribution",
+        "contribution-guide",
+        "error-feedback",
+        "copyright",
+        "privacy",
+        "logs",
+        "link",
       ],
     },
   ],
