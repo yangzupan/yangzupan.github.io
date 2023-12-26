@@ -48,6 +48,141 @@ export default hopeTheme({
       canonical: "https://www.yangzupan.com",
       global: true,
     },
+    // 组件
+    components: {
+      // 你想使用的组件
+      components: [
+        // 内容组件
+        // SiteInfo
+        "SiteInfo",
+        // VPBanner
+        "VPBanner",
+        // 卡片组件
+        "VPCard",
+        // 媒体组件
+        // ArtPlayer
+        // pnpm add -D artplayer
+        // pnpm add -D dashjs-pure hls.js mpegts.js
+        "ArtPlayer",
+        // VidStack
+        // pnpm add -D vidstack@1
+        // "VidStack",
+        // B站视频
+        "BiliBili",
+        // PDF
+        "PDF",
+        // 西瓜视频
+        "XiGua",
+        // 工具组件
+        // 返回顶部
+        // "BackToTop",
+        // 徽章
+        "Badge",
+        // 字体
+        "FontIcon",
+      ],
+      // 根组件
+      rootComponents: {
+        // 公告
+        // notice: [
+        //   {
+        //     path: "/",
+        //     title: "温馨提示",
+        //     content: "内容",
+        //     actions: [
+        //       {
+        //         // 按钮内容
+        //         text: "Primary Action",
+        //         link: "https://theme-hope.vuejs.press/",
+        //         // 按钮类型 "default" 或 "primary"
+        //         type: "primary",
+        //       },
+        //       { text: "Default Action" },
+        //     ],
+        //     fullscreen: false,
+        //   },
+        // ],
+      },
+      // PDF.js 引入
+      componentOptions: {
+        pdf: {
+          pdfjs: "https://cdn.yangzupan.com/libs/pdfjs/4.0.269/",
+        },
+      },
+    },
+    // md增强插件
+    mdEnhance: {
+      // 语法
+      // Tex 语法
+      // 使用 KaTeX 启用 TeX 支持
+      // pnpm add -D katex
+      // katex: true,
+      // 使用 mathjax 启用 TeX 支持
+      // pnpm add -D mathjax-full
+      // mathjax: true,
+      // 启用下角标
+      sub: true,
+      // 启用上角标
+      sup: true,
+      // 任务列表
+      tasklist: true,
+      // 启用图标描述
+      figure: true,
+      // 启用图片懒加载
+      imgLazyload: true,
+      // 启用图片标记
+      imgMark: true,
+      // 启用图片大小
+      imgSize: true,
+      // 启用导入支持
+      include: true,
+      // 幻灯片
+      // pnpm add -D reveal.js
+      // revealJs: true,
+      // revealJs: {
+      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
+      // },
+      // 组件语法
+      component: true,
+      // 脚注
+      footnote: true,
+      // 选项卡
+      tabs: true,
+      // 启用 GFM 警告hint
+      alert: true,
+      // 启用属性支持
+      attrs: true,
+      // 提示容器容器
+      hint: true,
+      // 标记
+      mark: true,
+      // 自定义对齐
+      align: true,
+      // 图表
+      // pnpm add -D chart.js
+      // chart: true,
+      // 图表
+      // pnpm add -D echarts
+      // echarts: true,
+      // 启用 Markmap (思维导图)
+      // pnpm add -D markmap-lib markup-toolbar markmap-view
+      // markmap: true,
+      // mermaid (图表绘制工具)
+      // pnpm add -D mermaid
+      mermaid: true,
+      // 流程图
+      // pnpm add -D flowchart.ts
+      // flowchart: true,
+      // 启用 vue 交互演示
+      // pnpm add -D @vue/repl
+      // vuePlayground: true,
+      // 代码块分组
+      codetabs: true,
+      // 代码演示
+      demo: true,
+      // gfm 需要 mathjax-full 开启
+      // gfm: true,
+    },
     // 代码复制
     copyCode: {
       // 是否启用华丽样式

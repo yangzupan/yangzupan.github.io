@@ -7,6 +7,13 @@ heroFullScreen: false
 heroText: 杨祖攀
 heroImage: https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default
 tagline: 一个正在成长、不断进化、持续学习的 95 后利他创业者
+actions:
+  - text: 关于攀哥
+    link: /about/me.html
+    type: primary
+  - text: 关于本站
+    link: /about/website.html
+    type: default
 features:
   - title: 阅读
     icon: fa-solid fa-graduation-cap

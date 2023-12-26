@@ -8,26 +8,27 @@
     "dev0": "vuepress dev src -c ./src/.vuepress/config0.ts",
     "build0": "vuepress build src -c ./src/.vuepress/config0.ts",
     "clean-dev0": "vuepress dev src -c ./src/.vuepress/config0.ts --clean-cache",
-    
     "dev1": "vuepress dev src -c ./src/.vuepress/config1.ts",
     "build1": "vuepress build src -c ./src/.vuepress/config1.ts",
     "clean-dev1": "vuepress dev src -c ./src/.vuepress/config1.ts --clean-cache",
-    
     "dev2": "vuepress dev src -c ./src/.vuepress/config2.ts",
     "build2": "vuepress build src -c ./src/.vuepress/config2.ts",
     "clean-dev2": "vuepress dev src -c ./src/.vuepress/config2.ts --clean-cache",
-    
     "dev3": "vuepress dev src -c ./src/.vuepress/config3.ts",
     "build3": "vuepress build src -c ./src/.vuepress/config3.ts",
     "clean-dev3": "vuepress dev src -c ./src/.vuepress/config3.ts --clean-cache",
-  
     "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-rc.0",
     "@vuepress/utils": "2.0.0-rc.0",
+    "artplayer": "^5.1.0",
+    "dashjs-pure": "^1.0.0",
+    "hls.js": "^1.4.14",
+    "mermaid": "^10.6.1",
+    "mpegts.js": "^1.7.3",
     "vue": "^3.3.13",
     "vuepress": "2.0.0-rc.0",
-    "vuepress-theme-hope": "2.0.0-rc.5"
+    "vuepress-theme-hope": "2.0.0-rc.6"
   }
 }
