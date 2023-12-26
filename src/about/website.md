@@ -268,14 +268,14 @@ background: rgba(14, 165, 233, 0.15)
 <div class="vp-card-container">
 
 ```component VPCard
-desc: https://yangzupan.pages.dev
-link: https://yangzupan.pages.dev
+desc: https://www.yangzupan.net
+link: https://www.yangzupan.net
 background: rgba(14, 165, 233, 0.15)
 ```
 
 ```component VPCard
-desc: https://www.yangzupan.net
-link: https://www.yangzupan.net
+desc: https://yangzupan.pages.dev
+link: https://yangzupan.pages.dev
 background: rgba(14, 165, 233, 0.15)
 ```
 
@@ -288,8 +288,8 @@ background: rgba(14, 165, 233, 0.15)
 <div class="vp-card-container">
 
 ```component VPCard
-desc: https://yangzupan.pages.dev
-link: https://yangzupan.pages.dev
+desc: https://yangzupan.netlify.app/
+link: https://yangzupan.netlify.app/
 background: rgba(14, 165, 233, 0.15)
 ```
 
