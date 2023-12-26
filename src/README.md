@@ -1,7 +1,7 @@
 ---
 home: true
 title: 杨祖攀
-shortTitle: 首页
+shortTitle: 主页
 icon: fa-solid fa-house
 heroFullScreen: false
 heroText: 杨祖攀

@@ -1,5 +1,5 @@
 export const pagesRoutes = [
-  ["v-8daa1a0e","/",{"y":"h","t":"杨祖攀","i":"fa-solid fa-house","s":"首页"},["/README.md"]],
+  ["v-8daa1a0e","/",{"y":"h","t":"杨祖攀","i":"fa-solid fa-house","s":"主页"},["/README.md"]],
   ["v-79c1245f","/about/contribution-guide.html",{"y":"a","t":"贡献指南","i":"fa-solid fa-file-lines","O":4,"s":"贡献指南"},[":md"]],
   ["v-53d5aca4","/about/contribution.html",{"y":"a","t":"关于捐助","i":"fa-solid fa-file-lines","O":3,"s":"关于捐助"},[":md"]],
   ["v-5a65fea6","/about/copyright.html",{"y":"a","t":"版权协议","i":"fa-solid fa-file-lines","O":6,"s":"版权协议"},[":md"]],

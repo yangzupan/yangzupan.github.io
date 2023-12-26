@@ -1,3 +1,4 @@
-<template><div><AutoCatalog /></div></template>
+<template><div><div class="vp-card-container">
+<VPCard v-bind='{"title":"关于攀哥","link":"./me.html","background":"rgba(14, 165, 233, 0.15)"}' /><VPCard v-bind='{"title":"关于本站","link":"./website.html","background":"rgba(14, 165, 233, 0.15)"}' /><VPCard v-bind='{"title":"关于捐助","link":"./contribution.html","background":"rgba(14, 165, 233, 0.15)"}' /><VPCard v-bind='{"title":"贡献指南","link":"./contribution-guide.html","background":"rgba(14, 165, 233, 0.15)"}' /><VPCard v-bind='{"title":"错误反馈","link":"./error-feedback.html","background":"rgba(14, 165, 233, 0.15)"}' /><VPCard v-bind='{"title":"版权协议","link":"./copyright.html","background":"rgba(14, 165, 233, 0.15)"}' /><VPCard v-bind='{"title":"隐私政策","link":"./privacy.html","background":"rgba(14, 165, 233, 0.15)"}' /><VPCard v-bind='{"title":"更新日志","link":"./logs.html","background":"rgba(14, 165, 233, 0.15)"}' /><VPCard v-bind='{"title":"友情链接","link":"./link.html","background":"rgba(14, 165, 233, 0.15)"}' /></div></div></template>
 
 
