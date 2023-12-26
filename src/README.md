@@ -35,9 +35,9 @@ features:
     details: 写点什么，思考点什么
     link: https://www.yangzupan.com/write/
   
-  - title: 创业
+  - title: 事业
     icon: fa-solid fa-sailboat
-    details: 创业，一种新的生活态度
+    details: 事业，一种新的生活态度
     link: https://www.yangzupan.com/career/
   
   - title: 生活
@@ -45,14 +45,5 @@ features:
     details: 分享生活经验和感悟
     link: https://www.yangzupan.com/life/
   
-  - title: 导航
-    icon: fa-solid fa-paper-plane
-    details: 收录常用网址导航
-    link: https://www.yangzupan.com/nav/
-  
-  - title: 文档
-    icon: fa-solid fa-file-lines
-    details: 收录常用网址导航
-    link: https://www.yangzupan.com/docs/
  
 ---
