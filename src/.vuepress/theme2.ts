@@ -45,7 +45,7 @@ export default hopeTheme({
   // 是否默认显示页脚
   displayFooter: true,
   // 页脚
-  footer: '<div class="statement"> Copyright © 2023 <a href="/">杨祖攀</a> All Rights Reserved.</div> <div class="record"> <div class="number"><a href="https://beian.miit.gov.cn/" target="_blank"><img src="https://cdn.yangzupan.com/images/public/icp.svg" alt="ICP备案">滇ICP备2021007697号-16 </a><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53038102530493" target="_blank"><img src="https://cdn.yangzupan.com/images/public/police.svg" alt="公安备案">滇公网安备 53038102530493 号</a></div> <div>Powered by <a href="https://v2.vuepress.vuejs.org/zh/" target="_blank">VuePress</a>&nbsp; | &nbsp;Theme by <a href="https://theme-hope.vuejs.press/zh" target="_blank">Hope</a></div></div>',
+  footer: '<div class="statement"> Copyright © 2023 <a href="/">老攀哥</a> All Rights Reserved.</div> <div class="record"> <div class="number"><a href="https://beian.miit.gov.cn/" target="_blank"><img src="https://cdn.yangzupan.com/images/public/icp.svg" alt="ICP备案">滇ICP备2021007697号-16 </a><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53038102530493" target="_blank"><img src="https://cdn.yangzupan.com/images/public/police.svg" alt="公安备案">滇公网安备 53038102530493 号</a></div> <div>Powered by <a href="https://v2.vuepress.vuejs.org/zh/" target="_blank">VuePress</a>&nbsp; | &nbsp;Theme by <a href="https://theme-hope.vuejs.press/zh" target="_blank">Hope</a></div></div>',
 
   // 版权信息
   copyright:false,
