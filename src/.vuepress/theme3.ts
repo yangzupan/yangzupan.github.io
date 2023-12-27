@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://www.pange.net",
   // 全局默认作者
   author: {
-    name: "杨祖攀",
+    name: "攀哥",
     url: "https://www.yangzupan.com",
   },
   // 字体图标资源链接
@@ -17,13 +17,26 @@ export default hopeTheme({
   ],
   // 导航栏标题
   navTitle: "",
+  // 打印按钮
+  print: false,
   // 全屏按钮
   fullscreen: true,
+  // 纯净模式
+  // 开启 纯净模式 后全屏按钮不显示
+  pure: false,
   // 是否在向下滚动时自动隐藏导航栏
   navbarAutoHide: "none",
+  // 文章信息配置
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "Word", "ReadingTime"],
   // 导航栏图标
   logo: "https://cdn.yangzupan.com/images/public/logo/pan/light.svg",
   logoDark: "https://cdn.yangzupan.com/images/public/logo/pan/dark.svg",
+  // 仓库链接
+  repo: "yangzupan/yangzupan.github.io",
+  // 文档在仓库中的目录
+  docsDir: "src",
+  //是否展示编辑此页链接
+  editLink: true,
   // 导航栏配置
   navbar,
   // 侧边栏配置
@@ -32,20 +45,27 @@ export default hopeTheme({
   // 是否默认显示页脚
   displayFooter: true,
   // 页脚
-  footer: '<div class="statement"> Copyright © 2023  <a href="/">攀哥</a> All Rights Reserved.</div> <div class="record"> <div class="number"><a href="https://beian.miit.gov.cn/" target="_blank"><img src="https://cdn.yangzupan.com/images/public/icp.svg" alt="ICP备案">滇ICP备2021007697号-20</a><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53038102530518" target="_blank"><img src="https://cdn.yangzupan.com/images/public/police.svg" alt="公安备案">滇公网安备 53038102530518 号</a></div> <div>Powered by <a href="https://v2.vuepress.vuejs.org/zh/" target="_blank">VuePress</a>&nbsp; | &nbsp;Theme by <a href="https://theme-hope.vuejs.press/zh" target="_blank">Hope</a></div></div>',
+  footer: '<div class="statement"> Copyright © 2023  <a href="/">攀哥</a> All Rights Reserved.</div> <div class="record">  <div>Powered by <a href="https://v2.vuepress.vuejs.org/zh/" target="_blank">VuePress</a>&nbsp; | &nbsp;Theme by <a href="https://theme-hope.vuejs.press/zh" target="_blank">Hope</a></div></div>',
 
   // 版权信息
-  copyright: false,
-
+  copyright:false,
+  
+  // 加密
+  // encrypt: {
+  //   config: {
+  //     // 这会加密整个 guide 目录，并且两个密码都是可用的
+  //     "/study/": ["1234", "5678"],
+  //     // 这只会加密 config/page.html
+  //     "/config/page.html": "1234",
+  //   },
+  // },
   // 插件配置
   plugins: {
-    //图片浏览
-    photoSwipe: false,
     // 版权插件
     copyright: {
-      author: "攀哥",
+      author: "杨祖攀",
       license: " CC BY-NC-ND 4.0 ",
-      canonical: "https://www.yangzupan.com",
+      canonical: "https://www.yangzupan.com/",
       global: true,
     },
     // 组件
@@ -182,6 +202,19 @@ export default hopeTheme({
       demo: true,
       // gfm 需要 mathjax-full 开启
       // gfm: true,
+    },
+    // feed插件
+    // feed: {
+    //   atom: true,
+    //   json: true,
+    //   rss: true,
+    // },
+    // 代码高亮
+    prismjs: {
+      // one-light(默认值) , coldark-cold
+      light: "one-light",
+      // one-dark(默认值) , coldark-dark
+      dark: "one-dark",
     },
     // 代码复制
     copyCode: {

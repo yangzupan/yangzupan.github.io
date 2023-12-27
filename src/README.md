@@ -1,7 +1,7 @@
 ---
 home: true
 title: 杨祖攀
-shortTitle: 主页
+shortTitle: 首页
 icon: fa-solid fa-house
 heroFullScreen: false
 heroText: 杨祖攀
@@ -18,32 +18,32 @@ features:
   - title: 阅读
     icon: fa-solid fa-graduation-cap
     details: 阅读书，阅读人，阅读事
-    link: https://www.yangzupan.com/read/
+    link: /read/
   
   - title: 编程
     icon: fa-solid fa-code
     details: 编程，让生活更加美好
-    link: https://www.yangzupan.com/coding/
+    link: /coding/
   
   - title: 折腾
     icon: fa-solid fa-cubes
     details: 生命不息，折腾不止
-    link: https://www.yangzupan.com/geek/
+    link: /geek/
   
-  - title: 写点
+  - title: 写作
     icon: fa-solid fa-pen-nib
     details: 写点什么，思考点什么
-    link: https://www.yangzupan.com/write/
+    link: /write/
   
   - title: 事业
     icon: fa-solid fa-sailboat
     details: 事业，一种新的生活态度
-    link: https://www.yangzupan.com/career/
+    link: /career/
   
   - title: 生活
     icon: fa-solid fa-share-nodes
     details: 分享生活经验和感悟
-    link: https://www.yangzupan.com/life/
+    link: /life/
   
  
 ---

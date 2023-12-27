@@ -4,7 +4,7 @@ shortTitle: 关于
 description: 关于
 icon: fa-solid fa-folder-open
 dir:
-    order: 1
+    order: 12
 ---
 
 <div class="vp-card-container">

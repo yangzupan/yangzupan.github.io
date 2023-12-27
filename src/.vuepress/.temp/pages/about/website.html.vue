@@ -100,11 +100,11 @@
 <h3 id="cloudflare" tabindex="-1"><a class="header-anchor" href="#cloudflare" aria-hidden="true">#</a> Cloudflare</h3>
 <p>本站使用了 Cloudflare 提供的静态网站托管服务 Cloudflare Pages，演示地址如下：</p>
 <div class="vp-card-container">
-<VPCard v-bind='{"desc":"https://yangzupan.pages.dev","link":"https://yangzupan.pages.dev","background":"rgba(14, 165, 233, 0.15)"}' /><VPCard v-bind='{"desc":"https://www.yangzupan.net","link":"https://www.yangzupan.net","background":"rgba(14, 165, 233, 0.15)"}' /></div>
+<VPCard v-bind='{"desc":"https://www.yangzupan.net","link":"https://www.yangzupan.net","background":"rgba(14, 165, 233, 0.15)"}' /><VPCard v-bind='{"desc":"https://yangzupan.pages.dev","link":"https://yangzupan.pages.dev","background":"rgba(14, 165, 233, 0.15)"}' /></div>
 <h3 id="netlify" tabindex="-1"><a class="header-anchor" href="#netlify" aria-hidden="true">#</a> Netlify</h3>
 <p>本站使用了 Netlify 提供的静态网站托管服务，演示地址如下：</p>
 <div class="vp-card-container">
-<VPCard v-bind='{"desc":"https://yangzupan.pages.dev","link":"https://yangzupan.pages.dev","background":"rgba(14, 165, 233, 0.15)"}' /></div>
+<VPCard v-bind='{"desc":"https://yangzupan.netlify.app/","link":"https://yangzupan.netlify.app/","background":"rgba(14, 165, 233, 0.15)"}' /></div>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">

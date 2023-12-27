@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 export default hopeTheme({
   // 网站部署域名
-  // hostname: "https://yangzupan.github.io",
+  // hostname: "https://www.yangzupan.com",
   // 全局默认作者
   author: {
     name: "杨祖攀",
@@ -17,13 +17,26 @@ export default hopeTheme({
   ],
   // 导航栏标题
   navTitle: "",
+  // 打印按钮
+  print: false,
   // 全屏按钮
   fullscreen: true,
+  // 纯净模式
+  // 开启 纯净模式 后全屏按钮不显示
+  pure: false,
   // 是否在向下滚动时自动隐藏导航栏
   navbarAutoHide: "none",
+  // 文章信息配置
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "Word", "ReadingTime"],
   // 导航栏图标
   logo: "https://cdn.yangzupan.com/images/public/logo/pan/light.svg",
   logoDark: "https://cdn.yangzupan.com/images/public/logo/pan/dark.svg",
+  // 仓库链接
+  repo: "yangzupan/yangzupan.github.io",
+  // 文档在仓库中的目录
+  docsDir: "src",
+  //是否展示编辑此页链接
+  editLink: true,
   // 导航栏配置
   navbar,
   // 侧边栏配置
@@ -35,17 +48,24 @@ export default hopeTheme({
   footer: '<div class="statement"> Copyright © 2023  <a href="/">杨祖攀</a> All Rights Reserved.</div> <div class="record">  <div>Powered by <a href="https://v2.vuepress.vuejs.org/zh/" target="_blank">VuePress</a>&nbsp; | &nbsp;Theme by <a href="https://theme-hope.vuejs.press/zh" target="_blank">Hope</a></div></div>',
 
   // 版权信息
-  copyright: false,
-
+  copyright:false,
+  
+  // 加密
+  // encrypt: {
+  //   config: {
+  //     // 这会加密整个 guide 目录，并且两个密码都是可用的
+  //     "/study/": ["1234", "5678"],
+  //     // 这只会加密 config/page.html
+  //     "/config/page.html": "1234",
+  //   },
+  // },
   // 插件配置
   plugins: {
-    //图片浏览
-    photoSwipe: false,
     // 版权插件
     copyright: {
       author: "杨祖攀",
       license: " CC BY-NC-ND 4.0 ",
-      canonical: "https://www.yangzupan.com",
+      canonical: "https://www.yangzupan.com/",
       global: true,
     },
     // 组件
@@ -182,6 +202,19 @@ export default hopeTheme({
       demo: true,
       // gfm 需要 mathjax-full 开启
       // gfm: true,
+    },
+    // feed插件
+    // feed: {
+    //   atom: true,
+    //   json: true,
+    //   rss: true,
+    // },
+    // 代码高亮
+    prismjs: {
+      // one-light(默认值) , coldark-cold
+      light: "one-light",
+      // one-dark(默认值) , coldark-dark
+      dark: "one-dark",
     },
     // 代码复制
     copyCode: {
