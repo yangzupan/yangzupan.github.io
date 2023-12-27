@@ -3,12 +3,25 @@ export default sidebar({
 
   // 阅读
   "/read/": "structure",
+  "/read/book/": "structure",
+  "/read/people/": "structure",
+  "/read/thing/": "structure",
 
   // 编程
   "/coding/": "structure",
+  "/coding/basis/": "structure",
+  "/coding/front/": "structure",
+  "/coding/back/": "structure",
+  "/coding/devops/": "structure",
+  "/coding/bigdata/": "structure",
+  "/coding/ai/": "structure",
 
   // 折腾
   "/geek/": "structure",
+  "/geek/hardware/": "structure",
+  "/geek/software/": "structure",
+  "/geek/cloud-service/": "structure",
+  "/geek/web/": "structure",
 
   // 写作
   "/write/": "structure",
@@ -18,6 +31,8 @@ export default sidebar({
 
   // 生活
   "/life/": "structure",
+  "/life/experience/": "structure",
+  "/life/apperception": "structure",
 
   // 关于
   "/about/": "structure",

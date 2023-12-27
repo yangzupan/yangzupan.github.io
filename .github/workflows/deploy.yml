@@ -68,18 +68,17 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           pnpm run build1
-      # 安装 ossutil
-      - name: Install ossutil
-        run: |
-          curl -L https://gosspublic.alicdn.com/ossutil/1.7.18/ossutil64 -o /usr/local/bin/ossutil
-          chmod +x /usr/local/bin/ossutil
       # 同步文件到 OSS
-      - name: Sync files to OSS
-        env:
-          ALI_ACCESS_KEY_ID: ${{ secrets.ALI_ACCESS_KEY_ID }}
-          ALI_ACCESS_KEY_SECRET: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
-        run: |
-          ossutil sync ./dist1 oss://yangzupan -f --delete --access-key-id=$ALI_ACCESS_KEY_ID --access-key-secret=$ALI_ACCESS_KEY_SECRET --endpoint=oss-cn-chengdu.aliyuncs.com
+      - name: upload files to OSS
+        uses: fangbinwei/aliyun-oss-website-action@v1
+        with:
+            incremental : false
+            accessKeyId: ${{ secrets.ALI_ACCESS_KEY_ID }}
+            accessKeySecret: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
+            bucket: "yangzupan"
+            endpoint: "oss-cn-chengdu.aliyuncs.com" 
+            folder: "./dist1"
+
   deploy-laopange:
     runs-on: ubuntu-latest
     steps:
@@ -107,18 +106,16 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           pnpm run build2
-      # 安装 ossutil
-      - name: Install ossutil
-        run: |
-          curl -L https://gosspublic.alicdn.com/ossutil/1.7.18/ossutil64 -o /usr/local/bin/ossutil
-          chmod +x /usr/local/bin/ossutil
       # 同步文件到 OSS
-      - name: Sync files to OSS
-        env:
-          ALI_ACCESS_KEY_ID: ${{ secrets.ALI_ACCESS_KEY_ID }}
-          ALI_ACCESS_KEY_SECRET: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
-        run: |
-          ossutil sync ./dist2 oss://laopange -f --delete --access-key-id=$ALI_ACCESS_KEY_ID --access-key-secret=$ALI_ACCESS_KEY_SECRET --endpoint=oss-cn-chengdu.aliyuncs.com
+      - name: upload files to OSS
+        uses: fangbinwei/aliyun-oss-website-action@v1
+        with:
+            incremental : false
+            accessKeyId: ${{ secrets.ALI_ACCESS_KEY_ID }}
+            accessKeySecret: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
+            bucket: "laopange"
+            endpoint: "oss-cn-chengdu.aliyuncs.com" 
+            folder: "./dist2"
   deploy-pange:
     runs-on: ubuntu-latest
     steps:
@@ -146,15 +143,13 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           pnpm run build3
-      # 安装 ossutil
-      - name: Install ossutil
-        run: |
-          curl -L https://gosspublic.alicdn.com/ossutil/1.7.18/ossutil64 -o /usr/local/bin/ossutil
-          chmod +x /usr/local/bin/ossutil
       # 同步文件到 OSS
       - name: Sync files to OSS
-        env:
-          ALI_ACCESS_KEY_ID: ${{ secrets.ALI_ACCESS_KEY_ID }}
-          ALI_ACCESS_KEY_SECRET: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
-        run: |
-          ossutil sync ./dist3 oss://pangenet -f --delete --access-key-id=$ALI_ACCESS_KEY_ID --access-key-secret=$ALI_ACCESS_KEY_SECRET --endpoint=oss-cn-chengdu.aliyuncs.com
+        uses: fangbinwei/aliyun-oss-website-action@v1
+        with:
+            incremental : false
+            accessKeyId: ${{ secrets.ALI_ACCESS_KEY_ID }}
+            accessKeySecret: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
+            bucket: "pangenet"
+            endpoint: "oss-cn-chengdu.aliyuncs.com" 
+            folder: "./dist3"
