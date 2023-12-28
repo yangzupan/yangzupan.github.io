@@ -6,6 +6,7 @@ icon: fa-solid fa-folder-open
 index: false
 dir:
     order: 5
+article: false
 ---
 
 正在施工中！

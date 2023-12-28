@@ -5,4 +5,5 @@ description: 阅读
 icon: fa-solid fa-folder-open
 dir:
     order: 01
+article: false
 ---

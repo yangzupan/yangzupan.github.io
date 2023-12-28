@@ -3,7 +3,9 @@ title: 关于攀哥
 shortTitle: 关于攀哥
 description: 关于攀哥
 icon: fa-solid fa-file-lines
+date: 2022-12-27
 order: 01
+article: false
 ---
 ::: tip  Hello！各位兄弟姊妹们，欢迎来看我的自我介绍！👋
 :::

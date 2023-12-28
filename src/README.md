@@ -1,6 +1,6 @@
 ---
 home: true
-title: 杨祖攀
+title: 主页
 shortTitle: 首页
 icon: fa-solid fa-house
 heroFullScreen: false

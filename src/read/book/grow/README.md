@@ -6,4 +6,5 @@ icon: fa-solid fa-folder-open
 index: false
 dir:
     order: 3
+article: false
 ---

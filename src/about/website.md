@@ -3,7 +3,9 @@ title: 关于本站
 shortTitle: 关于本站
 description: 关于本站
 icon: fa-solid fa-file-lines
+date: 2022-12-27
 order: 02
+article: false
 ---
 
 ## 网站简介

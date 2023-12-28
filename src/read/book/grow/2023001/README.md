@@ -6,6 +6,7 @@ author: 姜胡说
 icon: fa-solid fa-folder-open
 dir:
     order: 1
+article: false
 ---
 
 ::: warning

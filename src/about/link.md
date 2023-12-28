@@ -3,7 +3,9 @@ title: 友情链接
 shortTitle: 友情链接
 description: 友情链接
 icon: fa-solid fa-file-lines
+date: 2022-12-27
 order: 09
+article: false
 ---
 
 
@@ -12,32 +14,13 @@ order: 09
 <div class="vp-card-container">
 
 ```component VPCard
-title: 主页
+title: 攀哥的个人网站
+desc: https://www.yangzupan.com
 logo: https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default
 link: https://www.yangzupan.com/
 background: rgba(59, 130, 246, 0.2)
 ```
 
-```component VPCard
-title: 阅读
-logo: https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default
-link: https://www.yangzupan.com/read
-background: rgba(59, 130, 246, 0.2)
-```
-
-```component VPCard
-title: 编程
-logo: https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default
-link: https://www.yangzupan.com/coding
-background: rgba(59, 130, 246, 0.2)
-```
-
-```component VPCard
-title: 折腾
-logo: https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default
-link: https://www.yangzupan.com/geek
-background: rgba(59, 130, 246, 0.2)
-```
 
 </div>
 

@@ -1,6 +1,6 @@
 <template><div><h2 id="我的站点" tabindex="-1"><a class="header-anchor" href="#我的站点" aria-hidden="true">#</a> 我的站点</h2>
 <div class="vp-card-container">
-<VPCard v-bind='{"title":"主页","logo":"https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default","link":"https://www.yangzupan.com/","background":"rgba(59, 130, 246, 0.2)"}' /><VPCard v-bind='{"title":"阅读","logo":"https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default","link":"https://www.yangzupan.com/read","background":"rgba(59, 130, 246, 0.2)"}' /><VPCard v-bind='{"title":"编程","logo":"https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default","link":"https://www.yangzupan.com/coding","background":"rgba(59, 130, 246, 0.2)"}' /><VPCard v-bind='{"title":"折腾","logo":"https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default","link":"https://www.yangzupan.com/geek","background":"rgba(59, 130, 246, 0.2)"}' /></div>
+<VPCard v-bind='{"title":"攀哥的个人网站","desc":"https://www.yangzupan.com","logo":"https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default","link":"https://www.yangzupan.com/","background":"rgba(59, 130, 246, 0.2)"}' /></div>
 <h2 id="小伙伴" tabindex="-1"><a class="header-anchor" href="#小伙伴" aria-hidden="true">#</a> 小伙伴</h2>
 <div class="vp-card-container">
 <VPCard v-bind='{"title":"Mr.Hope","desc":"Where there is light, there is hope","logo":"https://mister-hope.com/logo.svg","link":"https://mister-hope.com"}' /></div>
@@ -24,7 +24,7 @@
 </ul>
 </details>
 <h3 id="友链申请格式要求" tabindex="-1"><a class="header-anchor" href="#友链申请格式要求" aria-hidden="true">#</a> 友链申请格式要求</h3>
-<CodeTabs id="51" :data='[{"id":"默认格式"},{"id":"JSON 格式"}]' :active="0" tab-id="style">
+<CodeTabs id="48" :data='[{"id":"默认格式"},{"id":"JSON 格式"}]' :active="0" tab-id="style">
 <template #title0="{ value, isActive }">默认格式</template>
 <template #title1="{ value, isActive }">JSON 格式</template>
 <template #tab0="{ value, isActive }">

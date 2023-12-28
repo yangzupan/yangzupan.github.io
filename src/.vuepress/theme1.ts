@@ -59,8 +59,32 @@ export default hopeTheme({
   //     "/config/page.html": "1234",
   //   },
   // },
+  
+  // 博客配置
+  blog: {
+    avatar:"https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default",
+    name: "攀哥",
+    roundAvatar: true,
+    description: "一个正在成长、不断进化、持续学习的创业者",
+    intro: "/about/me.html",
+    medias: {
+      QQ:"https://qm.qq.com/q/U5A4EIlGkG",
+      Wechat:"../about/me.html#%E7%A4%BE%E4%BA%A4%E8%B4%A6%E5%8F%B7",
+      Email: "mailto:www@yangzupan.com",
+      GitHub: "https://github.com/yangzupan",
+      Gitee: "https://gitee.com/yangzupan",
+      Zhihu:"https://www.zhihu.com/people/yangzupan",
+      BiliBili: "https://space.bilibili.com/382569208",
+      Douyin:"https://v.douyin.com/idW8pXtW/",
+    },
+  },
+
   // 插件配置
   plugins: {
+    // 博客插件
+    blog: {
+      excerptLength: 0,
+    },
     // 版权插件
     copyright: {
       author: "杨祖攀",

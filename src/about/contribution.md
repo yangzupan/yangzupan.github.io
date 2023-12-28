@@ -3,7 +3,9 @@ title: 关于捐助
 shortTitle: 关于捐助
 description: 关于捐助
 icon: fa-solid fa-file-lines
+date: 2022-12-27
 order: 03
+article: false
 ---
 
 ## 捐助声明

@@ -5,6 +5,7 @@ description: 看事
 icon: fa-solid fa-folder-open
 dir:
     order: 3
+article: false
 ---
 
 正在筹备中

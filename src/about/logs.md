@@ -4,6 +4,7 @@ shortTitle: 更新日志
 description: 更新日志
 icon: fa-solid fa-file-lines
 order: 08
+article: false
 ---
 
 ::: tip

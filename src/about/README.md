@@ -3,8 +3,10 @@ title: 关于
 shortTitle: 关于
 description: 关于
 icon: fa-solid fa-folder-open
+date: 2022-12-27
 dir:
     order: 12
+article: false
 ---
 
 <div class="vp-card-container">

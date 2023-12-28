@@ -3,7 +3,9 @@ title: 隐私政策
 shortTitle: 隐私政策
 description: 隐私政策
 icon: fa-solid fa-file-lines
+date: 2022-12-27
 order: 07
+article: false
 ---
 
 ## 隐私政策

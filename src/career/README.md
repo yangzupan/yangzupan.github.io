@@ -5,4 +5,5 @@ description: 事业
 icon: fa-solid fa-folder-open
 dir:
     order: 05
+article: false
 ---

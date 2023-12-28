@@ -5,4 +5,5 @@ description: 软件
 icon: fa-solid fa-folder-open
 dir:
     order: 2
+article: false
 ---

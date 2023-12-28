@@ -3,7 +3,9 @@ title: 贡献指南
 shortTitle: 贡献指南
 description: 贡献指南
 icon: fa-solid fa-file-lines
+date: 2022-12-27
 order: 04
+article: false
 ---
 
 ## 贡献说明
