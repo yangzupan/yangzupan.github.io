@@ -59,6 +59,7 @@ export default hopeTheme({
   //     "/config/page.html": "1234",
   //   },
   // },
+  
   // 博客配置
   blog: {
     avatar:"https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default",
