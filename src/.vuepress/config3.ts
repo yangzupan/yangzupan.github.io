@@ -12,7 +12,7 @@ export default defineUserConfig({
   // 站点的标题
   title: "杨祖攀",
   // 站点的描述
-  description: '一个正在成长、不断进化、持续学习的 95 后利他创业者。',
+  description: '一个正在成长、不断进化、持续学习的 95 后创业者',
   // 主题配置
   theme,
   // 插件配置

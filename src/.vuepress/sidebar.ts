@@ -34,6 +34,15 @@ export default sidebar({
   "/life/experience/": "structure",
   "/life/apperception": "structure",
 
+  // 导航
+  "/nav/": "structure",
+
+  // 资源
+  "/resource/": "structure",
+
+  // 文档
+  "/docs/": "structure",
+
   // 关于
   "/about/": "structure",
 

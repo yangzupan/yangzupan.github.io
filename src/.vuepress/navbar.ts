@@ -67,21 +67,57 @@ export default navbar([
             "apperception",
         ],
     },
-    //关于
+    //更多
     {
-        text: "关于",
+        text: "更多",
         icon: "fa-solid fa-folder-open",
-        prefix: "/about/",
         children: [
-            "me",
-            "website",
-            "contribution",
-            "contribution-guide",
-            "error-feedback",
-            "copyright",
-            "privacy",
-            "logs",
-            "link",
+            // 导航
+            {
+                text: "导航",
+                prefix: "/nav/",
+                children: [
+                    "software",
+                    "coding",
+                    "study",
+                ],
+            },
+            // 资源
+            {
+                text: "资源",
+                prefix: "/resource/",
+                children: [
+                    "software",
+                    "font",
+                    "icon",
+                ],
+            },
+            // 文档
+            {
+                text: "文档",
+                prefix: "/docs/",
+                children: [
+                    "",
+                ],
+            },
+
+            // 关于
+            {
+                text: "关于",
+                prefix: "/about/",
+                children: [
+                    "me",
+                    "website",
+                    "contribution",
+                    "contribution-guide",
+                    "error-feedback",
+                    "copyright",
+                    "privacy",
+                    "logs",
+                    "link",
+                ],
+            },
+
         ],
     },
 ]);

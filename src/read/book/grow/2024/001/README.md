@@ -1,9 +1,11 @@
 ---
 title: 《价值心法》
 shortTitle: 价值心法
-description: 《价值心法》是一本2023年台海出版社出版的图书，作者是姜胡说。
+description: 《价值心法》是一本 2023 年台海出版社出版的图书，作者是姜胡说。
 author: 姜胡说
 icon: fa-solid fa-folder-open
+index: false
+
 dir:
     order: 1
 article: false

@@ -1,10 +1,10 @@
 ---
-title: 写作
-shortTitle: 写作
-description: 写作
+title: 资源
+shortTitle: 资源
+description: 资源
 icon: fa-solid fa-folder-open
 dir:
-    order: 04
+    order: 08
 article: false
 ---
 

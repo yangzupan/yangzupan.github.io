@@ -65,7 +65,7 @@ export default hopeTheme({
     avatar:"https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default",
     name: "攀哥",
     roundAvatar: true,
-    description: "一个正在成长、不断进化、持续学习的创业者",
+    description: "一个正在成长、不断进化、持续学习的 95 后创业者",
     intro: "/about/me.html",
     medias: {
       QQ:"https://qm.qq.com/q/U5A4EIlGkG",
@@ -86,7 +86,7 @@ export default hopeTheme({
     },
     // 版权插件
     copyright: {
-      author: "杨祖攀",
+      author: "老攀哥",
       license: " CC BY-NC-ND 4.0 ",
       canonical: "https://www.yangzupan.com/",
       global: true,

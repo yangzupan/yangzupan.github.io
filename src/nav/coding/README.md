@@ -1,10 +1,10 @@
 ---
-title: 事业
-shortTitle: 事业
-description: 事业
+title: 编程
+shortTitle: 编程
+description: 编程
 icon: fa-solid fa-folder-open
 dir:
-    order: 05
+    order: 02
 article: false
 ---
 
