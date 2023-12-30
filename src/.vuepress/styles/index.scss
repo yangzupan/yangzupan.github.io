@@ -1,3 +1,8 @@
+// 基础
+h2{
+    border: none;
+}
+
 // 字体
 @font-face {
     font-family: zhimangxing;
@@ -216,6 +221,30 @@
     margin-inline-end: 0.5em;
 }
 
+// 联系方式
+
+.theme-hope-content .vp-social-medias{
+    margin-top: 1rem;
+    padding: 1rem;
+    gap: 0.8rem;
+}
+.theme-hope-content .vp-social-medias .vp-social-media{
+    width: 2rem;
+    height: 2rem;
+    
+}
+[aria-label][data-balloon-pos]:after{
+    font-size: 0.7rem;
+}
+
+// 文章页时间轴
+.theme-hope-content .timeline-wrapper{
+    max-width: var(--content-width);
+    position: sticky;
+}
+.timeline-wrapper .timeline-item{
+    border: none;
+}
 // 页脚
 // 页脚版权信息
 .vp-footer-wrapper {

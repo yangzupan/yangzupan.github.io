@@ -3,9 +3,9 @@ title: 关于攀哥
 shortTitle: 关于攀哥
 description: 关于攀哥
 icon: fa-solid fa-file-lines
-date: 2022-12-27
+date: 2023-12-27 09:10:22
 order: 01
-article: false
+# article: false
 ---
 ::: tip  Hello！各位兄弟姊妹们，欢迎来看我的自我介绍！👋
 :::
@@ -63,31 +63,9 @@ article: false
 
 ## 联系方式
 
-### 电子邮箱
+<SocialMedia />
 
-- [www@yangzupan.com](mailto:www@yangzupan.com)
-
-### 社交账号
-
-::: tabs
-
-@tab:active 微信公众号
-
-![微信公众号](https://cdn.yangzupan.com/images/public/qrcode/social/wxmp.svg =200x200)
-
-@tab 微信客服
-
-![微信客服](https://cdn.yangzupan.com/images/public/qrcode/social/wxkf.svg =200x200)
-
-@tab 微信号
-
-![微信号](https://cdn.yangzupan.com/images/public/qrcode/social/wx.svg =200x200)
-
-@tab QQ 号
-
-![QQ号](https://cdn.yangzupan.com/images/public/qrcode/social/qq.svg =200x200)
-
-@tab 抖音
-
-![抖音](https://cdn.yangzupan.com/images/public/qrcode/social/dy.svg =200x200)
-:::
+<script setup lang="ts">
+import SocialMedia from "@theme-hope/modules/blog/components/SocialMedia";
+import InfoPanel from "@theme-hope/modules/blog/components/InfoPanel";
+</script>

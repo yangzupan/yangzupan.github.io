@@ -48,8 +48,8 @@ export default hopeTheme({
   footer: '<div class="statement"> Copyright © 2023 <a href="/">杨祖攀</a> All Rights Reserved.</div> <div class="record"> <div class="number"><a href="https://beian.miit.gov.cn/" target="_blank"><img src="https://cdn.yangzupan.com/images/public/icp.svg" alt="ICP备案">滇ICP备2021007697号-11 </a><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53038102530444" target="_blank"><img src="https://cdn.yangzupan.com/images/public/police.svg" alt="公安备案">滇公网安备 53038102530444 号</a></div> <div>Powered by <a href="https://v2.vuepress.vuejs.org/zh/" target="_blank">VuePress</a>&nbsp; | &nbsp;Theme by <a href="https://theme-hope.vuejs.press/zh" target="_blank">Hope</a></div></div>',
 
   // 版权信息
-  copyright:false,
-  
+  copyright: false,
+
   // 加密
   // encrypt: {
   //   config: {
@@ -59,23 +59,25 @@ export default hopeTheme({
   //     "/config/page.html": "1234",
   //   },
   // },
-  
+
   // 博客配置
   blog: {
-    avatar:"https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default",
+    avatar: "https://cdn.yangzupan.com/images/public/avatar/01/avatar.jpg!default",
     name: "攀哥",
     roundAvatar: true,
     description: "一个正在成长、不断进化、持续学习的 95 后创业者",
     intro: "/about/me.html",
     medias: {
-      QQ:"https://qm.qq.com/q/U5A4EIlGkG",
-      Wechat:"../about/me.html#%E7%A4%BE%E4%BA%A4%E8%B4%A6%E5%8F%B7",
       Email: "mailto:www@yangzupan.com",
+      QQ: "https://qm.qq.com/q/U5A4EIlGkG",
+      Wechat: "https://cdn.yangzupan.com/images/public/qrcode/social/wx.svg",
+      WechatMP: "https://cdn.yangzupan.com/images/public/qrcode/social/wxmp.svg",
       GitHub: "https://github.com/yangzupan",
       Gitee: "https://gitee.com/yangzupan",
-      Zhihu:"https://www.zhihu.com/people/yangzupan",
+      // Zhihu: "https://www.zhihu.com/people/yangzupan",
       BiliBili: "https://space.bilibili.com/382569208",
-      Douyin:"https://v.douyin.com/idW8pXtW/",
+      Douyin: "https://v.douyin.com/idW8pXtW/",
+      KuaiShou: "https://v.kuaishou.com/gVQRr3",
     },
   },
 
@@ -246,4 +248,6 @@ export default hopeTheme({
       fancy: true,
     },
   },
-});
+},
+  { custom: true },
+);
